@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0FC2BD1B2DBC299C00D21EA7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2BD1A2DBC299500D21EA7 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0FC2BCDC2DBC0DA100D21EA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		0FC2BCCA2DBC0D9F00D21EA7 /* UniTimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniTimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC2BCDB2DBC0DA100D21EA7 /* UniTimeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniTimeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC2BCE52DBC0DA100D21EA7 /* UniTimeTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniTimeTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC2BD1A2DBC299500D21EA7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		0FC2BCC12DBC0D9F00D21EA7 = {
 			isa = PBXGroup;
 			children = (
+				0FC2BD1A2DBC299500D21EA7 /* README.md */,
 				0FC2BCCC2DBC0D9F00D21EA7 /* UniTimeTracker */,
 				0FC2BCDE2DBC0DA100D21EA7 /* UniTimeTrackerTests */,
 				0FC2BCE82DBC0DA100D21EA7 /* UniTimeTrackerUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC2BD1B2DBC299C00D21EA7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
